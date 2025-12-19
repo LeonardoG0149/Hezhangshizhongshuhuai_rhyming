@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>上古-中古韵部演变可视化</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>上古韵部来源与中古韵部去向演变图</h1>
+            <div class="controls">
+                <button id="btn-unmerged" class="active">数据源：未合并中古铎药</button>
+                <button id="btn-merged">数据源：已合并中古铎药</button>
+            </div>
+        </header>
+
+        <main>
+            <div id="sankey-container"></div>
+            <div id="other-charts">
+                <div id="pie-chart"></div>
+            </div>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
