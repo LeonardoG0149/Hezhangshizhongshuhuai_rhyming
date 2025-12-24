@@ -52,3 +52,36 @@ header {
     border-radius: 8px;
     height: 300px;
 }
+/* 诗文区域整体样式 */
+.poem-section {
+    margin-top: 40px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    line-height: 1.8;
+    text-align: center; /* 居中显示 */
+}
+
+.poem-content {
+    display: inline-block;
+    text-align: left; /* 诗句内部左对齐 */
+    font-size: 1.1rem;
+    color: #333; /* 默认黑色 */
+}
+
+.poem-content p {
+    margin: 5px 0;
+}
+
+/* 颜色要求：药入及前一字为绿色 */
+.rhyme-yao {
+    color: #2e7d32; /* 深绿色 */
+    font-weight: bold;
+}
+
+/* 颜色要求：觉入合韵及前一字为蓝色 */
+.rhyme-jue {
+    color: #1565c0; /* 深蓝色 */
+    font-weight: bold;
+}
